@@ -123,7 +123,7 @@ const BoardConfirm = props => {
           <div className={classes.formField}>
             <TextField
               label="Nội dung"
-              source="text"
+              source="description"
               record={data}
               className={classes.textFieldMulti}
             />

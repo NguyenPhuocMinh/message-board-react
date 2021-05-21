@@ -70,7 +70,7 @@ const BoardCreate = (props) => {
       registerDate: data.registerDate,
       title: data.title,
       name: data.name,
-      text: data.text
+      description: data.description
     }
   }, [])
 
@@ -132,7 +132,7 @@ const BoardCreate = (props) => {
                     multiline
                     isRequired
                     rows={10}
-                    name='text'
+                    name='description'
                     variant="outlined"
                     className={classes.textInput}
                     {...formProps}

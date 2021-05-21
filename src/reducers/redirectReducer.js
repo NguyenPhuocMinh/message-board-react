@@ -5,7 +5,7 @@ const initialState = {
     registerDate: null,
     title: '',
     name: '',
-    text: ''
+    description: ''
   }
 };
 

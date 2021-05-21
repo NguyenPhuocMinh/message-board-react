@@ -126,7 +126,7 @@ const BoardDetail = props => {
   const registerDate = record && moment(record.registerDate).format('yyyy.MM.DD');
   const title = record && record.title;
   const name = record && record.name;
-  const text = record && record.text;
+  const description = record && record.description;
 
   const handleNextDetail = (idCurrent) => {
     // find current data
@@ -190,7 +190,7 @@ const BoardDetail = props => {
             </div>
             <div className={classes.width60Align}>
               <Typography variant="subtitle1" gutterBottom>
-                {text}
+                {description}
               </Typography>
             </div>
           </div>

@@ -36,6 +36,7 @@ const TextInput = props => {
     className,
     formClassName,
   } = props;
+  console.log("🚀 ~ file: TextInput.js ~ line 39 ~ props", props)
 
   const classes = useStyles();
 
